@@ -7,8 +7,8 @@ async function main() {
     spinner.classList.add("spinner-border");
     document.querySelector("#box").appendChild(spinner);
 
-    const url = "http://127.0.0.1:3000";
-    // const url = "https://gossamer-mercury-wildebeest.glitch.me";
+    // const url = "http://127.0.0.1:3000";
+    const url = "https://stump-prickle-spleen.glitch.me";
 
     const formData = new FormData((form = document.querySelector("#ccForm")));
 
